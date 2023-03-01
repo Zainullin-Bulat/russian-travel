@@ -1,12 +1,11 @@
 .place__title {
     grid-area: title;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     color: #ffffff;
     font-size: 72px;
     line-height: 76px;
     font-weight: 900;
-    margin: 0 auto;
     width: 100%;
 }
 
