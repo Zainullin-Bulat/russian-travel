@@ -9,24 +9,24 @@
     width: 100%;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
     .place__title {
         max-width: calc(440px + (460 - 440)*((100vw - 1024px)/(1280 - 1024)));
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
     .place__title {
-        font-size: calc(42px + (72 - 42)*((100vw - 768px)/(1023 - 768)));
-        line-height: calc(46px + (76 - 46)*((100vw - 768px)/(1023 - 768)));
-        max-width: calc(340px + (440 - 340)*((100vw - 768px)/(1023 - 768)));
+        font-size: calc(42px + (72 - 42)*((100vw - 768px)/(1024 - 768)));
+        line-height: calc(46px + (76 - 46)*((100vw - 768px)/(1024 - 768)));
+        max-width: calc(340px + (440 - 340)*((100vw - 768px)/(1024 - 768)));
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
     .place__title {
-        font-size: calc(32px + (42 - 32)*((100vw - 320px)/(767 - 320)));
-        line-height: calc(35px + (46 - 35)*((100vw - 320px)/(767 - 320)));
-        max-width: calc(288px + (720 - 288)*((100vw - 320px)/(767 - 320)));
+        font-size: calc(32px + (42 - 32)*((100vw - 320px)/(768 - 320)));
+        line-height: calc(35px + (46 - 35)*((100vw - 320px)/(768 - 320)));
+        max-width: calc(288px + (720 - 288)*((100vw - 320px)/(768 - 320)));
     }
 }

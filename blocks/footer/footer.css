@@ -1,5 +1,7 @@
 .footer {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     max-width: 1184px;
     width: 100%;
     padding-top: 92px;
@@ -9,22 +11,23 @@
     margin: 0 auto;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
     .footer {
         max-width: calc(928px + (1184 - 928)*((100vw - 1024px)/(1280 - 1024)));
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
     .footer {
-        max-width: calc(720px + (928 - 720)*((100vw - 768px)/(1023 - 768)));
+        max-width: calc(720px + (928 - 720)*((100vw - 768px)/(1024 - 768)));
+        padding-top: calc(88px + (92 - 88)*((100vw - 768px)/(1024 - 768)));
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767.9px) {
     .footer {
-        display: flex;
         flex-direction: column;
-        max-width: calc(288px + (720 - 288)*((100vw - 320px)/(767 - 320)));
+        max-width: calc(288px + (720 - 288)*((100vw - 320px)/(767.9 - 320)));
+        padding-top: calc(64px + (88 - 64)*((100vw - 320px)/(767.9 - 320)));
     }
 }
